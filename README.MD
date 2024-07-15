@@ -49,17 +49,17 @@ Each data point includes:
 
 ### Data Preprocessing
 
-- **REMOVE “Liputan6. com, [teks]:” from the Text**
-  Example: `Liputan6. com, Jakarta:`
+- **REMOVE `Liputan6. com, [teks]:` from the Text**
+  Example: Liputan6. com, Jakarta:
   
-- **REMOVE “day and date patterns” from the text**
-  Example: `Selasa (15/5)`
+- **REMOVE `day and date patterns` from the text**
+  Example: Selasa (15/5)
   
-- **REMOVE the format "(<Initial>/<Author Name> and <Author Name>)" from the text**
-  Example: `(ICH/Tris Wijayanto dan Agus Ginanjar)`
+- **REMOVE the format `(<Initial>/<Author Name> and <Author Name>)` from the text**
+  Example: (ICH/Tris Wijayanto dan Agus Ginanjar)
   
-- **REMOVE '[baca: ...]' from the Text**
-  Example: `[baca: Ledakan Bom Mewarnai Malam Pergantian Tahun….]`
+- **REMOVE `[baca: ...]` from the Text**
+  Example: [baca: Ledakan Bom Mewarnai Malam Pergantian Tahun….]
 
 ### Model Experimentation
 - Bert2bert
