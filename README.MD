@@ -47,6 +47,10 @@ Each data point includes:
 - `clean_summary` - abstractive summary
 - `extractive_summary` - extractive summary
 
+### Data Sampling for Training and Evaluation
+1. **Training Data**: An initial sample of over 190,000 data points was reduced to 10,000. From this, a random sample of 2,000 data points was used for training.
+2. **Development and Test Data**: The original datasets, each containing over 10,000 data points, were sampled down to 1,000 data points each for evaluation purposes.
+
 ### Data Preprocessing
 
 1. **REMOVE `Liputan6. com, [teks]:` from the Text**
