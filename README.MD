@@ -66,8 +66,8 @@ Each data point includes:
    - Example: [baca: Ledakan Bom Mewarnai Malam Pergantian Tahun….]
 
 ### Model Experimentation
-- Bert2bert
-- Bert2GPT
+- BERT2BERT
+- BERT2GPT
 - T5
 
 ### Results
@@ -77,5 +77,9 @@ Each data point includes:
 | BERT2BERT | 0.4029  | 0.2528  | 0.3642  | 0.4029    |
 | BERT2GPT  | 0.4018  | 0.2562  | 0.3658  | 0.4018    |
 | T5        | 0.3134  | 0.1622  | 0.2678  | 0.2680    |
+
+### Conclusion
+
+Based on the ROUGE metrics, the pretrained BERT2BERT model demonstrates the best performance among the tested models. However, the T5 model could be considered as an alternative due to its ability to maintain punctuation and capitalization in its predictions, unlike the BERT2BERT model, which outputs predictions in lowercase only.
 
 ---
